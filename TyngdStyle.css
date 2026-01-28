@@ -1,0 +1,149 @@
+body {
+    background-color: #c0dbff;
+    font-family: Farro;
+}
+
+.Title {
+    position: relative;
+    margin: 2vw;
+    color: #0d0746;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
+.StepBox {
+    position: absolute;
+    top: 9vw;
+    right: 2%;
+    left: 2%;
+    bottom: 14vw;
+    margin: 0 auto; 
+
+    border: 10px #0d0746 solid;
+    border-radius: 1vw;
+
+    background-color: #ffc6f4;
+}
+
+.Paragraph {
+    position: relative;
+    font-size: 1.5vw;
+    margin: 1.5%;
+}
+
+
+
+.Instruction {
+    position: relative;
+
+    width: 30%;
+    height: 95%;
+
+    margin-top: -20%;
+    margin-left: 1%;
+
+    border: solid #ffffff;
+    border-radius: 1vw;
+    background-color: #ffffff;
+}
+
+.InstructionTitle {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.InstructionText {
+    font-size: 1.5vw;
+}
+
+.BackButton {
+    margin: 2%;
+    bottom: 0px;
+    left: 0px;
+}
+
+.NextButton {
+    margin: 2%;
+    bottom: 0px;
+    right: 0px;
+
+}
+
+.Button {
+    position: absolute;
+
+    font-family: Quantico;
+    font-size: 1vw;
+
+    height: 10vw;
+    width: 10vw;
+
+    border: 10px #0d0746 solid;
+    border-radius: 3vw;
+
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
+    transition-duration: 0.5s;  
+}
+
+.Button:hover {
+    transform: scale(1.1);
+        font-size: 1.2vw;
+
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
+    transition-duration: 0.25s;
+}
+
+.Button:active {
+    transform: scale(1.2);
+    transition-duration: 0.1s;    
+}
+
+
+
+
+.ZoomAway {
+    transform: scale(0);
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
+    transition-duration: 0.25s;    
+}
+
+.ZoomHere {
+    transform: scale(1);
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
+    transition-duration: 0.25s;    
+}
+
+
+.img {
+    position: relative;
+    height: 20vw;
+    width: auto;
+    margin:auto; 
+}
+
+.img1 {
+    left: 35vw;
+    top: 0vw;
+}
+
+.img2 {
+    left: 40vw;
+    top: 0vw;     
+}
+
+.img3 {
+    left: -10vw;
+    top: 25vw;         
+}
+
+.img4 {
+    left: 10vw;
+    top: 25vw;     
+}
+
+.img5 {
+    left: 50vw;
+    top: 25vw;
+    transform: scale(3);
+}
