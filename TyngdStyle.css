@@ -1,14 +1,26 @@
 body {
     background-color: #c0dbff;
     font-family: Farro;
+    overflow: hidden;
 }
 
 .Title {
     position: relative;
-    margin: 2vw;
+    margin: 1.5vw;
     color: #0d0746;
     font-size: 5vw;
     text-align: center;
+
+
+
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
+    transition-duration: 0.25s;    
+}
+
+.Title:hover {
+    transform: scale(1.05);
+
+    transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
 }
 
 
@@ -17,7 +29,7 @@ body {
     top: 9vw;
     right: 2%;
     left: 2%;
-    bottom: -5vw;
+    bottom: 1vw;
     margin: 0 auto; 
 
     border: 10px #0d0746 solid;
@@ -41,7 +53,7 @@ body {
     width: 30%;
     height: 95%;
 
-    margin-top: -20%;
+    margin-top: -21%;
     margin-left: 1%;
 
     border: solid #ffffff;
@@ -73,11 +85,11 @@ body {
     position: absolute;
 
     font-family: Quantico;
-    font-size: 1vw;
+    font-size: 2vw;
 
     height: 10vw;
     width: 10vw;
-    bottom: -20vw;    
+    top: -1vw;    
 
     border: 10px #0d0746 solid;
     border-radius: 3vw;
@@ -88,7 +100,7 @@ body {
 
 .Button:hover {
     transform: scale(1.1);
-        font-size: 1.2vw;
+        font-size: 2.2vw;
 
     transition-timing-function: cubic-bezier(.51,-0.86,.24,1.93);
     transition-duration: 0.25s;
