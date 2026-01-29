@@ -17,13 +17,13 @@ body {
     top: 9vw;
     right: 2%;
     left: 2%;
-    bottom: -10vw;
+    bottom: -5vw;
     margin: 0 auto; 
 
     border: 10px #0d0746 solid;
     border-radius: 1vw;
 
-    background-color: #ffc6f4;
+    background-color: #f5c6ff;
 }
 
 .Paragraph {
@@ -36,6 +36,7 @@ body {
 
 .Instruction {
     position: relative;
+    overflow: auto;
 
     width: 30%;
     height: 95%;
