@@ -1,3 +1,4 @@
+
 const NextBtn  = document.getElementById("NextButton");
 const BackBtn  = document.getElementById("BackButton");
 const ParaText = document.getElementById("ParagraphText");
@@ -99,7 +100,7 @@ NextBtn.addEventListener('click', () => {
     }
     else if (Step == 4) {
         InstTitle.innerHTML = 'Steg 4';
-        InstText.innerHTML = 'Tape/glue the thread horizontally inside the bottle. Make sure they thread is centered vertically. The two thread will create an X in the middle of the bottle.<br><br> This is Tyngd Punkten.';
+        InstText.innerHTML = 'Tape/glue the threads horizontally inside the bottle. Make sure they thread is centered vertically. The two thread will create an X in the middle of the bottle.<br><br> This is Tyngd Punkten.';
 
         img1.style.display="inline-block"
         img1.src="Images/BottleStringXTop.png"  
@@ -182,7 +183,7 @@ NextBtn.addEventListener('click', () => {
     }
     else if (Step == 8) {
         InstTitle.innerHTML = 'Finished!';
-        InstText.innerHTML = 'Youve finished the model! But you are likely wondering what this weird bottle, thread, mix craft is. WELL!<br><br>The bottle is the object. The X thread inside the bottle, which is hopefully centered, is just to give the actual Tyngt Punkten something to hang onto. The hanging string is the "arrow" that shows where the weight is going. So, if Ive done this correctly, when the bead goes outside the object(waterbottle) should loose balance<br> I hope it works, I see no reason why is shouldnt. I may have gotten a liiiiittle overboard with this very simple assignment. I hope I understood the assignment correctly too.<br><br>If I could put in more time into this, I would make it cleaner, fix bugs, add more and better images, and take the effort into writing all this in swedish';
+        InstText.innerHTML = 'Youve finished the model! But you are likely wondering what this weird bottle, thread, mix craft is. WELL!<br><br>The bottle is the object. The X thread inside the bottle, which is hopefully centered, is just to give the actual Tyngt Punkten something to hang onto. The hanging string is the "arrow" that shows where the weight is going. So, if Ive done this correctly, when the bead goes outside the object(waterbottle) should loose balance<br><br>I hope it works, I see no reason why is shouldnt. I may have gotten a liiiiittle overboard with this very simple assignment. I hope I understood the assignment correctly too.<br><br>If I could put in more time into this, I would make it cleaner, fix bugs, add more and better images, and put in effort to write all this in Swedish';
 
         NextBtn.style.display='none'
         Step ++
@@ -278,7 +279,7 @@ BackBtn.addEventListener('click', () => {
     }
     else if (Step == 5) {
         InstTitle.innerHTML = 'Steg 4';
-        InstText.innerHTML = 'Tape/glue the thread horizontally inside the bottle. Make sure they thread is centered vertically. The two thread will create an X in the middle of the bottle.<br><br> This is Tyngd Punkten.';
+        InstText.innerHTML = 'Tape/glue the threads horizontally inside the bottle. Make sure they thread is centered vertically. The two thread will create an X in the middle of the bottle.<br><br> This is Tyngd Punkten.';
 
         img1.style.display="inline-block"
         img1.src="Images/BottleStringXTop.png"  
@@ -355,14 +356,14 @@ BackBtn.addEventListener('click', () => {
         img5.style.display="inline-block"
         img5.src="Images/BottleFinished.png"        
 
-        NextBtn.style.display='block'        
+        NextBtn.style.display=''        
         Step --
 
         console.log(Step);        
     }
     else if (Step == 9) {
         InstTitle.innerHTML = 'Finished!';
-        InstText.innerHTML = 'Youve finished the model! But you are likely wondering what this weird bottle, thread, mix craft is. WELL!<br><br>The bottle is the object. The X thread inside the bottle, which is hopefully centered, is just to give the actual Tyngt Punkten something to hang onto. The hanging string is the "arrow" that shows where the weight is going. So, if Ive done this correctly, when the bead goes outside the object(waterbottle) should loose balance<br> I hope it works, I see no reason why is shouldnt. I may have gotten a liiiiittle overboard with this very simple assignment. I hope I understood the assignment correctly too.<br><br>If I could put in more time into this, I would make it cleaner, fix bugs, add more and better images, and take the effort into writing all this in swedish';
+        InstText.innerHTML = 'Youve finished the model! But you are likely wondering what this weird bottle, thread, mix craft is. WELL!<br><br>The bottle is the object. The X thread inside the bottle, which is hopefully centered, is just to give the actual Tyngt Punkten something to hang onto. The hanging string is the "arrow" that shows where the weight is going. So, if Ive done this correctly, when the bead goes outside the object(waterbottle) should loose balance<br><br>I hope it works, I see no reason why is shouldnt. I may have gotten a liiiiittle overboard with this very simple assignment. I hope I understood the assignment correctly too.<br><br>If I could put in more time into this, I would make it cleaner, fix bugs, add more and better images, and put in effort to write all this in Swedish';
 
         NextBtn.style.display='none'
         Step --
