@@ -154,8 +154,17 @@ body {
     top: 25vw;     
 }
 
+@keyframes FinishedImg {
+  0%   {transform: scale(1);}
+  50%   {transform: scale(0.5);}  
+  100% {transform: scale(3);}
+}
+
 .img5 {
     left: 50vw;
     top: 25vw;
     transform: scale(3);
+
+    animation-name: FinishedImg;
+    animation-duration: 4s;    
 }
