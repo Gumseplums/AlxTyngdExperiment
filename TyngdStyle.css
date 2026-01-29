@@ -17,7 +17,7 @@ body {
     top: 9vw;
     right: 2%;
     left: 2%;
-    bottom: 14vw;
+    bottom: 1vw;
     margin: 0 auto; 
 
     border: 10px #0d0746 solid;
@@ -59,13 +59,13 @@ body {
 
 .BackButton {
     margin: 2%;
-    bottom: 0px;
+    bottom: -20px;
     left: 0px;
 }
 
 .NextButton {
     margin: 2%;
-    bottom: 0px;
+    bottom: -20px;
     right: 0px;
 
 }
